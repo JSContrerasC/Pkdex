@@ -13,7 +13,8 @@ import java.net.URL;
 
 @RestController
 public class PkmController {
-
+ public void  hola (){
+    }
     @Autowired
     private RestTemplate restTemplate;
 //    String result = restTemplate.getForObject(newUrl, String.class);
