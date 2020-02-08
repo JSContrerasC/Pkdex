@@ -34,6 +34,8 @@ public class PkmController {
         return pokemon;
     }
 
+    public void hola4 (){}
+
     @DeleteMapping("/students/{id}")
     public void deleteStudent(@PathVariable long id) {
         System.out.println("esto es un delete");
