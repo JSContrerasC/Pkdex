@@ -14,6 +14,7 @@ public class PkmController {
  public void  hola (){
     }
     public void hola2 (){}
+    public void adios () {}
     @Autowired
     private RestTemplate restTemplate;
 //    String result = restTemplate.getForObject(newUrl, String.class);
