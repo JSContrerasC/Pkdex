@@ -15,6 +15,7 @@ import java.net.URL;
 public class PkmController {
  public void  hola (){
     }
+    public void hola2 (){}
     @Autowired
     private RestTemplate restTemplate;
 //    String result = restTemplate.getForObject(newUrl, String.class);
