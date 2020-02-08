@@ -3,9 +3,7 @@ package com.example.Pkdex.controller;
 import com.example.Pkdex.domain.Pkm;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.MalformedURLException;
@@ -32,5 +30,10 @@ public class PkmController {
         Pkm pokemon = restTemplate.getForObject(newUrl, Pkm.class);
 
         return pokemon;
+    }
+
+    @DeleteMapping("/students/{id}")
+    public void deleteStudent(@PathVariable long id) {
+        System.out.println("esto es un delete");
     }
 }
