@@ -13,7 +13,7 @@ import java.net.URL;
 public class PkmController {
  public void  hola (){
     }
-    public void hola2 (){}
+    public void hola3 (){ }
     public void adios () {}
     @Autowired
     private RestTemplate restTemplate;
